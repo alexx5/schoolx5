@@ -1,3 +1,5 @@
+package LessonOne;
+
 public class Cat {
 
     int age;
