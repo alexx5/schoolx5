@@ -1,6 +1,6 @@
-package Lesson1;
+package lesson1;
 
-public class Cat {
+public class Dog {
 
     int age;
     String color;
