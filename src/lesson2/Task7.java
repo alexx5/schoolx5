@@ -14,15 +14,15 @@ public class Task7 {
         in.close();
     }
 
-    public static String callCost (int num) {
+    public static String callCost(int num) {
         if (num == 905) {
-            return "Москва. Стоимость разговора: " + 4.15 * TALK_TIME + " руб." ;
+            return "Москва. Стоимость разговора: " + 4.15 * TALK_TIME + " руб.";
         } else if (num == 194) {
-            return "Ростов. Стоимость разговора: " + 1.98 * TALK_TIME + " руб." ;
+            return "Ростов. Стоимость разговора: " + 1.98 * TALK_TIME + " руб.";
         } else if (num == 491) {
-            return "Краснодар. Стоимость разговора: " + 2.69 * TALK_TIME + " руб." ;
+            return "Краснодар. Стоимость разговора: " + 2.69 * TALK_TIME + " руб.";
         } else if (num == 800) {
-            return "Киров. Стоимость разговора: " + 5.00 * TALK_TIME + " руб." ;
+            return "Киров. Стоимость разговора: " + 5.00 * TALK_TIME + " руб.";
         } else {
             return "Вы ввели неверный код города";
         }

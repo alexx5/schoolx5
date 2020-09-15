@@ -18,8 +18,4 @@ public class Task5 {
         System.out.println("Наименьшее число: " + Collections.min(list));
         sc.close();
     }
-
-
-
-
 }

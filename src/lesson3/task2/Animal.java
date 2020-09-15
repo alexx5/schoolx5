@@ -4,16 +4,16 @@ public class Animal {
     String food;
     String location;
 
-    public void makeNoise () {
+    public void makeNoise() {
         System.out.println("Такое-то животное спит");
 
     }
 
-    public void eat () {
+    public void eat() {
 
     }
 
-    public void sleep () {
+    public void sleep() {
 
     }
 

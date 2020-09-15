@@ -8,15 +8,15 @@ public class Task4 {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите целое число: ");
         int number = in.nextInt();
-        System.out.printf("Результат: %d \n", operationsNumber(number) );
+        System.out.printf("Результат: %d \n", operationsNumber(number));
         in.close();
     }
 
-    public static int operationsNumber (int num) {
-        if (num > 0 ) {
+    public static int operationsNumber(int num) {
+        if (num > 0) {
             return ++num;
         } else if (num < 0) {
-            return num-2;
+            return num - 2;
         } else {
             num = 10;
             return num;

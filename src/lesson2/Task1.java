@@ -10,7 +10,7 @@ public class Task1 {
         System.out.print("Введите целое число: ");
         int number = in.nextInt();
 
-        System.out.printf("Последняя цифра: %d \n", number%10);
+        System.out.printf("Последняя цифра: %d \n", number % 10);
 
         in.close();
 

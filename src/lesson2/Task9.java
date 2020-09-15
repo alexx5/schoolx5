@@ -15,9 +15,8 @@ public class Task9 {
         return myArr;
     }
 
-    public static void showArray (int[] arr) {
-        for (int k = 0 ; k < arr.length; k++)
-        {
+    public static void showArray(int[] arr) {
+        for (int k = 0; k < arr.length; k++) {
             System.out.print(arr[k] + " ");
         }
     }

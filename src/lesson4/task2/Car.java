@@ -7,7 +7,9 @@ public abstract class Car extends Engine {
     Engine motor;
 
     public abstract void start();
+
     public abstract void stop();
+
     public abstract void printInfo();
 
     public void turnRight() {

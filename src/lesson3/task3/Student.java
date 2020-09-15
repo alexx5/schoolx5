@@ -6,7 +6,7 @@ public class Student {
     String group;
     double averageMark;
 
-    public double getScholarship (double averageMark) {
+    public double getScholarship(double averageMark) {
         if (averageMark == 5) {
             return 100;
         } else {

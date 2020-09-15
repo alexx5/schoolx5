@@ -7,7 +7,7 @@ public class Main {
         shape[1] = new Rectangle();
         shape[2] = new Triangle();
 
-        for (Shape sh: shape) {
+        for (Shape sh : shape) {
             System.out.println("Площадь фигуры: " + sh.square());
         }
     }
